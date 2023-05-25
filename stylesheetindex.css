@@ -1,0 +1,52 @@
+body, html {
+  background-color: #DDBBDD;
+  height: 100%;
+  margin: 0;
+  font-family: Times New Roman, sans-serif;
+  font-size: 17px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("galaxy.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: papyrus;
+}
+
+button {
+  border: none;
+  outline: 100;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  font-family: Times New Roman;
+  font-size: 17px;
+}
+
+button:hover {
+  background-color: #555;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
