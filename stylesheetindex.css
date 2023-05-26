@@ -25,6 +25,10 @@ body, html {
   font-family: papyrus;
 }
 
+.collages {
+  text-align: center;
+}
+
 button {
   border: none;
   outline: 100;
